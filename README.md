@@ -15,15 +15,10 @@ https://github.com/invisiballos-alt/for-Infotechs.git
 
 
 # Сборка
-
-Linux/macOS
-sudo apt install build-essential cmake  # Ubuntu/Debian
-**или**
-sudo dnf install gcc-c++ cmake         # Fedora
-
+__находясь в папке проекта__
 mkdir build && cd build
 cmake ..
-make -j$(nproc)
+make
 
 Windows (MinGW-w64/MSYS2)
 # Установка MSYS2: winget install MSYS2.MSYS2
@@ -39,5 +34,8 @@ mkdir build && cd build
 cmake .. -G "Visual Studio 17 2022"
 cmake --build . --config Release
 
-# Команды для сервера (используются в терминале клиента)
+# Команды для сервера 
 
+__пример команды:__ 
+START_INTEGRAL 2 10 0.01 
+              (а) (b) (h)
